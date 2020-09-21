@@ -1,6 +1,4 @@
-import 'dart:async';
 import 'dart:math';
-
 import 'package:auto_pub/core/data_models/post.dart';
 import 'package:auto_pub/core/enums/view_state.dart';
 import 'package:auto_pub/core/services/api.dart';
