@@ -4,6 +4,8 @@ import 'package:auto_pub/ui/views/login_view.dart';
 import 'package:auto_pub/ui/views/post_view.dart';
 import 'package:flutter/material.dart';
 
+const String initialRoute = "login";
+
 class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {

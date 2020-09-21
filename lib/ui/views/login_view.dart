@@ -11,7 +11,6 @@ class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BaseView<LoginViewModel>(
-      onModelReady: (m){},
       builder: (context,model,child) => Scaffold(
         backgroundColor: backgroundColor,
         body: Column(

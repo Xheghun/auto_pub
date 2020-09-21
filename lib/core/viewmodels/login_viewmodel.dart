@@ -18,9 +18,7 @@ class LoginViewModel extends BaseViewModel {
       setState(ViewState.Idle);
       return false;
     }
-
     var success = await _authenticationService.login(userId);
-
     setState(ViewState.Idle);
     return success;
   }
