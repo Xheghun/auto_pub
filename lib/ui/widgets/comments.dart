@@ -1,5 +1,5 @@
 import 'package:auto_pub/core/data_models/comment.dart';
-import 'package:auto_pub/core/viewmodels/base_viewmodel.dart';
+import 'package:auto_pub/core/enums/view_state.dart';
 import 'package:auto_pub/core/viewmodels/comments_viewmodel.dart';
 import 'package:auto_pub/ui/shared/app_colors.dart';
 import 'package:auto_pub/ui/shared/ui_helpers.dart';

@@ -23,8 +23,11 @@ class Api {
     // Get user posts for id
     var response = await client.get('$endpoint/posts?userId=$userId');
 
+    print(response.body);
+
     // parse into List
     var parsed = json.decode(response.body) as List<dynamic>;
+
 
     // loop and convert each item to Post
     for (var post in parsed) {
@@ -39,6 +42,8 @@ class Api {
 
     // Get comments for post
     var response = await client.get('$endpoint/comments?postId=$postId');
+
+    print(response.body);
 
     // Parse into List
     var parsed = json.decode(response.body) as List<dynamic>;

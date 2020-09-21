@@ -1,6 +1,6 @@
 import 'package:auto_pub/core/data_models/post.dart';
 import 'package:auto_pub/core/data_models/user.dart';
-import 'package:auto_pub/core/viewmodels/base_viewmodel.dart';
+import 'package:auto_pub/core/enums/view_state.dart';
 import 'package:auto_pub/core/viewmodels/home_viewmodel.dart';
 import 'package:auto_pub/ui/shared/app_colors.dart';
 import 'package:auto_pub/ui/shared/text_styles.dart';

@@ -1,3 +1,4 @@
+import 'package:auto_pub/core/enums/view_state.dart';
 import 'package:auto_pub/core/services/auth/auth_service.dart';
 import 'package:auto_pub/core/viewmodels/base_viewmodel.dart';
 import 'package:auto_pub/locator.dart';
