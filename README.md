@@ -1,6 +1,6 @@
 # auto_pub
 
-Automating publishing Flutter apps to Google Play using GitHub Actions
+GraphQL with Flutter
 
 ## Getting Started
 
