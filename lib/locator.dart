@@ -13,7 +13,7 @@ void setupLocator() {
   locator.registerLazySingleton(() => Api());
 
   //viewmodels
-  locator.registerLazySingleton(() => LoginViewModel());
+  locator.registerFactory(() => LoginViewModel());
   locator.registerFactory(() => HomeViewModel());
   locator.registerFactory(() => CommentsViewModel());
 }

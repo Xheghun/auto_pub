@@ -13,7 +13,7 @@ class Api {
   Future<User> getUserProfile(int userId) async {
     // Get user profile for id
     var response = await client.get('$endpoint/users/$userId');
-
+    print(response.body);
     // Convert and return
     return User.fromJson(json.decode(response.body));
   }

@@ -5,20 +5,13 @@ import 'package:auto_pub/ui/views/base_view.dart';
 import 'package:auto_pub/ui/widgets/login_header.dart';
 import 'package:flutter/material.dart';
 
-class LoginView extends StatefulWidget {
-  @override
-  _LoginViewState createState() => _LoginViewState();
-}
-
-class _LoginViewState extends State<LoginView> {
+class LoginView extends StatelessWidget {
 
   final TextEditingController controller = TextEditingController();
-
-
-
   @override
   Widget build(BuildContext context) {
     return BaseView<LoginViewModel>(
+      onModelReady: (m){},
       builder: (context,model,child) => Scaffold(
         backgroundColor: backgroundColor,
         body: Column(
