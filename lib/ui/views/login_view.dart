@@ -1,6 +1,5 @@
 import 'package:auto_pub/core/viewmodels/base_viewmodel.dart';
 import 'package:auto_pub/core/viewmodels/login_viewmodel.dart';
-import 'package:auto_pub/locator.dart';
 import 'package:auto_pub/ui/shared/app_colors.dart';
 import 'package:auto_pub/ui/views/base_view.dart';
 import 'package:auto_pub/ui/widgets/login_header.dart';
