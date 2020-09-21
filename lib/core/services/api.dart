@@ -23,6 +23,8 @@ class Api {
     // Get user posts for id
     var response = await client.get('$endpoint/posts?userId=$userId');
 
+
+    print(response.request.url);
     print(response.body);
 
     // parse into List
